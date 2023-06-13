@@ -97,8 +97,7 @@ export default function Home() {
                       </a>
                     </h5>
                     <h1 className="text-xl mt-2 font-bold tracking-tight text-gray-900 sm:text-6xl">
-                      Create how-to videos about{" "}
-                      <span className="italic">anything</span>.
+                      Create how-to videos with AI.
                     </h1>
                     <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
                       Teach-O-Matic is an open source Jupyter notebook that lets
