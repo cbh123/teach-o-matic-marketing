@@ -12,7 +12,13 @@ export default function CTA() {
               href="https://colab.research.google.com/drive/1pykPRbF0PhMdmUi3X-i8sCL5jnUQxSwb?usp=sharing"
               className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Check out the notebook &rarr;
+              Run the notebook
+            </a>
+            <a
+              href="https://www.youtube.com/@teach-o-matic"
+              className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold border text-gray-700 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              YouTube Channel &rarr;
             </a>
           </div>
         </div>
