@@ -18,10 +18,21 @@ export default function CTA() {
               href="https://www.youtube.com/@teach-o-matic"
               className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold border text-gray-700 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              YouTube Channel &rarr;
+              Check out YouTube Channel &rarr;
             </a>
           </div>
         </div>
+
+        <p className="text-gray-700 font-medium text-center mt-12">
+          Teach-O-Matic is an open source project from{" "}
+          <a
+            className="hover:text-orange-700"
+            href="https://replicate.com?utm_source=project&utm_campaign=teachomatic"
+          >
+            Replicate
+          </a>
+          .
+        </p>
       </div>
     </div>
   );

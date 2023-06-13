@@ -51,7 +51,7 @@ export default function How() {
           <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-orange-600">
-                No Dev environment required
+                No dev environment required
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 How does it work?

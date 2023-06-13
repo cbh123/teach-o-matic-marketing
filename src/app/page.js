@@ -1,9 +1,9 @@
 "use client";
-import Image from "next/image";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import How from "./components/How";
 import CTA from "./components/CTA";
 import Example from "./components/Example";
+import Footer from "./components/Footer";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 
 export default function Home() {
   return (
@@ -81,7 +81,20 @@ export default function Home() {
                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                   <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                     <h5 className="text-base font-semibold leading-7 text-orange-600">
-                      Powered by Replicate + LangChain
+                      Powered by{" "}
+                      <a
+                        className="hover:text-orange-400"
+                        href="https://replicate.com?utm_source=project&utm_campaign=teachomatic"
+                      >
+                        Replicate
+                      </a>{" "}
+                      +{" "}
+                      <a
+                        className="hover:text-orange-400"
+                        href="https://langchain.com"
+                      >
+                        LangChain
+                      </a>
                     </h5>
                     <h1 className="text-xl mt-2 font-bold tracking-tight text-gray-900 sm:text-6xl">
                       Create how-to videos about{" "}
@@ -203,6 +216,19 @@ export default function Home() {
 
       <Example />
       <How />
+
+      <div className="py-16 text-center w-full bg-white">
+        <div className="text-center justify-center max-w-lg mx-auto">
+          <h2 className="text-base font-semibold leading-7 text-orange-600">
+            We Have Fans
+          </h2>
+          <TwitterTweetEmbed
+            onLoad={function noRefCheck() {}}
+            tweetId={"1655687955493830657"}
+          />
+        </div>
+      </div>
+
       <CTA />
     </div>
   );
