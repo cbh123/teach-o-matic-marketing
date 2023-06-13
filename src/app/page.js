@@ -96,7 +96,7 @@ export default function Home() {
             />
           </svg>
           <div
-            className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+            className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24"
             aria-hidden="true"
           >
             <div
@@ -109,7 +109,7 @@ export default function Home() {
           </div>
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
-              <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+              <div className="mx-auto max-w-2xl gap-x-14 ">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h5 className="text-base font-semibold leading-7 text-orange-600">
                     Powered by Replicate + LangChain
@@ -135,7 +135,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                  <div className="ml-auto w-52 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                  <div className="ml-auto w-52 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36">
                     <div className="relative">
                       <a
                         href="https://youtu.be/h3FLPlDGgRM"
